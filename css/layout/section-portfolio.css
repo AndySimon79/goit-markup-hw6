@@ -11,6 +11,7 @@
 }
 
 .portfolio {
+  padding-top: 96px;
   padding-bottom: 96px;
 }
 .header-portfolio {
@@ -89,6 +90,10 @@
 }
 
 @media screen and (min-width: 1158px) {
+  .portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .portfolio-list {
     row-gap: 48px;
   }

@@ -2,8 +2,8 @@
 
 .section-two-color {
   background: #f4f4fd;
-  margin-top: 96px;
-  margin-bottom: 96px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .header-team {
@@ -15,13 +15,12 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
-  padding-top: 96px;
 }
 
 .team-card-color {
   background: #fff;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .team-bio {
@@ -83,8 +82,9 @@
 .team-list {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 72px;
-  padding-bottom: 96px;
 }
 
 .team-card-color {
@@ -112,7 +112,8 @@
   .team-card-color {
     width: calc((100% - 72px) / 4);
   }
-  .team-list {
+  .section-two-color {
+    padding-top: 120px;
     padding-bottom: 120px;
   }
 }
