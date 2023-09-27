@@ -21,13 +21,16 @@
   color: #f4f4fd;
 }
 
+.footer-logo-text {
+  margin-bottom: 72px;
+}
+
 .footer-text {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 288px;
-  padding-bottom: 72px;
 }
 
 .footer-social {
@@ -41,7 +44,7 @@
 }
 
 .footer-social-container {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .social-list {
@@ -141,6 +144,7 @@
 
 @media screen and (min-width: 768px) {
   .footer {
+    width: 584px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -166,29 +170,37 @@
   }
   .footer-social-container {
     padding-bottom: 0px;
+    margin-bottom: 0px;
   }
   .footer-social {
     text-align: left;
   }
+  .footer-logo-text {
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
+  .subscribe-input {
+    width: 264px;
+  }
+
   .footer {
+    width: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     margin-left: auto;
     row-gap: 72px;
     column-gap: 0px;
-    margin-right: auto;
     align-items: baseline;
+    justify-content: center;
   }
   .footer-logo-text {
     margin-right: 120px;
-  }
-  .footer-logo-text {
     max-width: 264px;
   }
+
   .subscribe-bottom {
     margin-left: 80px;
   }

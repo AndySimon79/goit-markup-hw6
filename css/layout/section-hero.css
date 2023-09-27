@@ -24,9 +24,10 @@
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  max-width: 288px;
+  max-width: 217px;
   margin-left: auto;
   margin-right: auto;
+  text-transform: capitalize;
 }
 
 .button-style {
@@ -106,6 +107,7 @@
 @media screen and (min-width: 1158px) {
   .section-one-color {
     padding: 188px 0;
+    max-width: 1440px;
     background-image: linear-gradient(
         to bottom,
         rgba(46, 47, 66, 0.7),
